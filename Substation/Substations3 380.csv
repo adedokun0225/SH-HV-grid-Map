@@ -1,0 +1,25 @@
+﻿Name ,Voltage ,Start point Station ,Voltage startpoint,End point substation ,Voltage Endpoint,Latitude start point,Longitude start point,Latitude end point ,longitude end point
+ Handewitt,380/110, Handewitt,380,Jardelund,380,54.72782,9.314293,54.852142,9.196651
+ Handewitt,380/110, Handewitt,380,Shuby West,380,54.72782,9.314293,54.521938,9.435164
+ Handewitt,380/110,Handewitt,380,Audorf sud,380,54.72782,9.314293,54.288496,9.724671
+Shuby West,380/110,Shuby West,380,Audorf sud,380,54.521938,9.435164,54.288496,9.724671
+Helping Bus 3,380/110,Helping Bus 3,380/110,Helping Bus 4,380/110,54.791209,8.874628,54.51254,9.074286
+Helping Bus 4,380,Helping Bus 4,380,Uw Husum Nord,380,54.51254,9.074286,54.510525,9.077733
+Helping Bus 5,380/110,Helping Bus 5,380/110,Helping Bus 6,380/110,54.351701,9.641356,"54.341165,",9.71263
+Brunesbuttel,380/220/110,Brunesbuttel,110,Helping Bus 19,380,53.896182,9.201704,53.897482,9.240417
+Helping Bus 6,380/110,Helping Bus 6,380,Audorf sud,380,"54.341165,",9.71263,54.288496,9.724671
+Audorf sud,380/110,Audorf Sud,380,Wilster,380,54.288496,9.724671,53.92329,9.345835
+Wilster,380,Wilter ,380,Helping Bus 57,380,53.92329,9.345835,53.878344,9.355744
+Helping Bus 57,380,Helping Bus 57,380,Brokdorf,380/220,53.878344,9.355744,53.851773,9.343582
+Helping Bus 57,380,Helping Bus 57,380,Helping Bus 58,380,53.878344,9.355744,53.864481,9.458735
+Helping Bus 58,380,Helping Bus 58,380,Phaenschieberanlage Krempermarsch,380,53.864481,9.458735,53.847975,9.50002
+Phaenschieberanlage Krempermarsch,380,Phaenschieberanlage Krempermarsch,380,Kummerfeld ,380,53.847975,9.50002,53.69035,9.777076
+Wilster,380,Wilster,380,Helping Bus 17,380,53.92329,9.345835,53.898167,9.247492
+Helping Bus 17,380,Helping Bus 17,380,Buttel,380/320/250,53.898167,9.247492,53.916186,9.2352
+Helping Bus 17,380,Helping Bus 17,380,Brunesbuttel,380/220/110,53.898167,9.247492,53.896182,9.201704
+Brunesbuttel,380/220/110,Brunesbuttel,380,Helping Bus 18,380,53.896182,9.201704,53.908631,9.185869
+Helping Bus 18,380,Helping Bus 18,380,Suderdonn,380,53.908631,9.185869,53.97247,9.111904
+Suderdonn,380/110,Suderdonn,380,Heide West ,380,53.97247,9.111904,54.16172,9.05082
+Siems ,380/110,Siems,380/110,Kraftwerk Herrenwyk,380/110,53.909843,10.760494,53.897908,10.802039
+Heide West ,380,Heide West ,380,Uw Husum Nord,380,54.16172,9.05082,54.510525,9.077733
+Uw Husum Nord,380,Uw Husum Nord,380,Klixbull Sud,380,54.510525,9.077733,54.795001,8.866922
