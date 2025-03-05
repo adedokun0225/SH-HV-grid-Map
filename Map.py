@@ -77,7 +77,6 @@ df3 = df3.dropna(axis=1)
 
 #Convert data to web_mercetor format
 maped_data = web_mercetor_convert(df)
-# print(maped_data)
 maped_data1 = Convert(df1)
 maped_data2 = Convert(df2)
 maped_data3 = Convert(df3)
@@ -106,9 +105,7 @@ class Distance:
                 point1 = (self.maped_datas.iloc[i]["Latstat"], self.maped_datas.iloc[i]["Longstat"])
                 point2 = (self.maped_datas.iloc[i]["Latend"], self.maped_datas.iloc[i]["Longend"])
                 distance = geodesic(point1,point2).kilometers
-                #dist.append(distance)
-                #debugging to ensure dist is float
-                #print(f"Debug: distance = {distance}, type = {type(distance)}")
+                
                 output= (
                         f"Measured dist betweeen {self.maped_datas.iloc[i]['Start point Station']}"
                             f" and {self.maped_datas.iloc[i]['End point substation']}:{distance:.2f} km\n"
