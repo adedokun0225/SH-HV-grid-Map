@@ -4,8 +4,6 @@ from bokeh.models import ColumnDataSource, HoverTool
 from geopy.distance import geodesic 
 import pandas as pd
 import numpy as np
-import seaborn as sns
-
 
 
 #Range for the size of the map 
