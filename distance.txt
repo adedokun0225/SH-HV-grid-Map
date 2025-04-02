@@ -100,6 +100,7 @@ Measured dist betweeen Helping Bus 13 and Helping Bus 15:5.84 km
 Measured dist betweeen Helping Bus 15 and Heede:4.15 km
 Measured dist betweeen Helping Bus 15 and Helping Bus 16:4.46 km
 Measured dist betweeen Helping Bus 16 and Elmshorn Ost:2.24 km
+Measured dist betweeen Kummerfeld and Helping Bus 16:6.57 km
 Measured dist betweeen Shuby West and Helping Bus 28:2.42 km
 Measured dist betweeen Helping Bus 28 and Substation Adj 3:3.45 km
 Measured dist betweeen Substation Adj 3 and Jubek:1.73 km
@@ -152,8 +153,10 @@ Measured dist betweeen Helping Bus 36 and Bad Segeberg:6.61 km
 Measured dist betweeen Bad Segeberg and Wahlstedt:6.14 km
 Measured dist betweeen Helping Bus 36 and Geschendorf:6.57 km
 Measured dist betweeen Geschendorf and Niendorf:13.72 km
-Measured dist betweeen Niendorf and Helping Bus 52:14.44 km
-Measured dist betweeen Helping Bus 52 and Bad Oldesloe:5.45 km
+Measured dist betweeen Niendorf and Barkhorst:14.46 km
+Measured dist betweeen Barkhorst and Helping Bus 52:0.63 km
+Measured dist betweeen Helping Bus 52 and Bad Oldesloe:4.90 km
+Measured dist betweeen Helping Bus 52 and Helping Bus 48:7.18 km
 Measured dist betweeen Niendorf and Genin Sud:4.45 km
 Measured dist betweeen Genin Sud and Lübeck Genin:0.55 km
 Measured dist betweeen Lübeck Genin and Dombreite:4.12 km
@@ -214,14 +217,19 @@ Measured dist betweeen Helping Bus  51 and Helping Bus  54:10.11 km
 Measured dist betweeen Helping Bus  54 and Quickborn ost:2.36 km
 Measured dist betweeen Helping Bus  54 and Helping Bus  55:6.05 km
 Measured dist betweeen Helping Bus  55 and Norderstedt:2.60 km
-Measured dist betweeen Hamburg Nord and Helping Bus 56:2.88 km
+Measured dist betweeen Hamburg Nord 1 and Helping Bus 56:2.88 km
 Measured dist betweeen Helping Bus 56 and Harksheide:7.75 km
 Measured dist betweeen Helping Bus 31 and Helping Bus 33:2.09 km
+Measured dist betweeen Helping Bus 31 and Helping Bus 32:3.04 km
+Measured dist betweeen Helping Bus  55 and Helping Bus  59:6.29 km
+Measured dist betweeen Helping Bus  59 and Halstenbek:2.28 km
 Measured dist betweeen Audorf and Helping Bus 31:15.10 km
 Measured dist betweeen Helping Bus 31 and Helping Bus 32:3.04 km
 Measured dist betweeen Helping Bus 32 and Kiel West:5.72 km
 Measured dist betweeen Helping Bus 32 and Kiel Sud:10.24 km
 Measured dist betweeen Helping Bus 31 and Helping Bus 33:2.09 km
+Measured dist betweeen Brunnsbuttel and itzehoe west:18.09 km
+Measured dist betweeen Hamburg Nord 1 and itzehoe west:41.91 km
 Measured dist betweeen Handewitt and Jardelund:15.77 km
 Measured dist betweeen Handewitt and Shuby West:24.21 km
 Measured dist betweeen Handewitt and Audorf sud:55.66 km
@@ -235,6 +243,8 @@ Measured dist betweeen Helping Bus 57 and Brokdorf:3.06 km
 Measured dist betweeen Helping Bus 57 and Helping Bus 58:6.95 km
 Measured dist betweeen Helping Bus 58 and Phaenschieberanlage Krempermarsch:3.28 km
 Measured dist betweeen Phaenschieberanlage Krempermarsch and Kummerfeld:25.33 km
+Measured dist betweeen Hamburg Nord 2 and Kummerfeld:14.78 km
+Measured dist betweeen Kummerfeld and Dollen:24.50 km
 Measured dist betweeen Wilster and Helping Bus 17:7.04 km
 Measured dist betweeen Helping Bus 17 and Buttel:2.16 km
 Measured dist betweeen Helping Bus 17 and Brunesbuttel:3.02 km
