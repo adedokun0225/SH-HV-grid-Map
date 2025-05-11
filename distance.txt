@@ -213,11 +213,12 @@ Measured dist betweeen Bad Bramstedt and Helping Bus  50:8.58 km
 Measured dist betweeen Helping Bus  50 and Kaltenkirchen Nord:1.54 km
 Measured dist betweeen Helping Bus  50 and Helping Bus  51:3.32 km
 Measured dist betweeen Helping Bus  51 and KaltenkirchenSüd:2.17 km
-Measured dist betweeen Helping Bus  51 and Helping Bus  54:10.11 km
+Measured dist betweeen Helping Bus  51 and Hamburg Nord 1_110:6.61 km
+Measured dist betweeen Hamburg Nord 1 _110 and Helping Bus  54:3.53 km
 Measured dist betweeen Helping Bus  54 and Quickborn ost:2.36 km
 Measured dist betweeen Helping Bus  54 and Helping Bus  55:6.05 km
 Measured dist betweeen Helping Bus  55 and Norderstedt:2.60 km
-Measured dist betweeen Hamburg Nord 1 and Helping Bus 56:2.88 km
+Measured dist betweeen Hamburg Nord 1_110 and Helping Bus 56:2.88 km
 Measured dist betweeen Helping Bus 56 and Harksheide:7.75 km
 Measured dist betweeen Helping Bus 31 and Helping Bus 33:2.09 km
 Measured dist betweeen Helping Bus 31 and Helping Bus 32:3.04 km
@@ -243,7 +244,7 @@ Measured dist betweeen Helping Bus 57 and Brokdorf:3.06 km
 Measured dist betweeen Helping Bus 57 and Helping Bus 58:6.95 km
 Measured dist betweeen Helping Bus 58 and Phaenschieberanlage Krempermarsch:3.28 km
 Measured dist betweeen Phaenschieberanlage Krempermarsch and Kummerfeld:25.33 km
-Measured dist betweeen Hamburg Nord 2 and Kummerfeld:14.78 km
+Measured dist betweeen Hamburg Nord and Kummerfeld:14.78 km
 Measured dist betweeen Kummerfeld and Dollen:24.50 km
 Measured dist betweeen Wilster and Helping Bus 17:7.04 km
 Measured dist betweeen Helping Bus 17 and Buttel:2.16 km

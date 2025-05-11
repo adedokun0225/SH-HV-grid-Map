@@ -14,19 +14,22 @@ for i, row in df_bus.iterrows():
                               zone=row.get("zone", None),
                               in_service=row.get("in_service", True)
                               )
-#print(df_bus.columns)
+print(net.bus)
     
 df_load = pd.read_excel("Substation\data_Pandapower.xlsx", sheet_name="load", index_col = 0)
 for i in df_load.index:
     pp.create_load(net, **df_load.loc[i, :].to_dict())
+
+
 df_sgen = pd.read_excel("Substation\data_Pandapower.xlsx", sheet_name="sgen", index_col = 0)
 for i in df_sgen.index:
     pp.create_sgen(net, **df_sgen.loc[i, :].to_dict())
 print(net.sgen)
+
 df_ext_grid = pd.read_excel("Substation\data_Pandapower.xlsx", sheet_name="ext_grid", index_col = 0)
 for i in df_ext_grid.index:
     pp.create_ext_grid(net, **df_ext_grid.loc[i, :].to_dict())
-print(net.ext_grid)
+
 df_lines = pd.read_excel("Substation\data_Pandapower.xlsx", sheet_name="line", index_col = 0)
 #strip column name to avoid issues with spaces
 df_lines.columns = df_lines.columns.str.strip()
@@ -51,20 +54,37 @@ for i, row in df_lines.iterrows():
                                    parallel=row.get("parallel", 1),
                                    in_service=row.get("in_service", True)
                                    )
-print(net.line)
-df_trafo = pd.read_excel("Substation\data_Pandapower.xlsx", sheet_name="trafo", index_col = 0)
-for i in df_trafo.index:
-    #pp.create_transformer(net, **df_trafo.loc[i, :])
-    #pp.create_transformer(net, hv_bus=df_trafo.at[1, "hv_bus"], lv_bus=df_trafo.at[i, "lv_bus"], std_type=df_trafo.at[i, "std_type"])
-    hv = df_trafo.at[i, "hv_bus"]
-    lv = df_trafo.at[i, "lv_bus"]
+'''df_trafo = pd.read_excel("Substation\data_Pandapower.xlsx", sheet_name="trafo", index_col = 0)
+for i,row in df_trafo.iterrows():
+    pp.create_transformer_from_parameters(net, 
+                                          hv_bus=int(row["hv_bus"]),
+                                          lv_bus=int(row["lv_bus"]),
+                                          sn_mva=row["sn_mva"],
+                                          vn_hv_kv=row["vn_hv_kv"],
+                                          vn_lv_kv=row["vn_lv_kv"],
+                                          vk_percent=row["vk_percent"],
+                                          vkr_percent=row["vkr_percent"],
+                                          pfe_kw=row["pfe_kw"],
+                                          i0_percent=row["i0_percent"],
+                                          shift_degree=row["shift_degree"],
+                                          tap_side=row["tap_side"],
+                                          tap_neutral=row["tap_neutral"],
+                                          tap_min=row["tap_min"],
+                                          tap_max=row["tap_max"],
+                                          tap_step_percent=row["tap_step_percent"],
+                                          tap_step_degree=row["tap_step_degree"],
+                                          tap_pos=row["tap_pos"],
+                                          tap_phase_shifter=row["tap_phase_shifter"],
+                                          parallel=row["parallel"],
+                                          df=row["df"],
+                                          in_service=row["in_service"],
+                                          name=row["name"]
+                                          )'''
+pp.runpp(net)
+pp.diagnostic(net)
 
-    if hv in net.bus.index and lv in net.bus.index:
-        try:
-            pp.create_transformer(net, **df_trafo.loc[i].to_dict())
-        except Exception as e:
-            print(f" caution Error at row {i}: {e}")
-    else:
-        print(f"Skipping row {i}: Bus {hv} or {lv} not in net.bus")
-#print(net.trafo)
- 
+try:
+    pp.runpp(net)
+except pp.LoadflowNotConverged:
+    print("Power flow did not converge. Running diagnostic:")
+    pp.diagnostic(net)
